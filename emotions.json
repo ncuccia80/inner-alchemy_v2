@@ -1,0 +1,620 @@
+[
+  {
+    "id": "emo_love",
+    "name": "Love",
+    "type": "emotion",
+    "tier": 0,
+    "tags": [
+      "relationships"
+    ],
+    "intensity": "low",
+    "insight": "Connection, care, and valuation."
+  },
+  {
+    "id": "emo_fear",
+    "name": "Fear",
+    "type": "emotion",
+    "tier": 0,
+    "tags": [
+      "threat"
+    ],
+    "intensity": "medium",
+    "insight": "Threat detection and loss avoidance."
+  },
+  {
+    "id": "emo_anger",
+    "name": "Anger",
+    "type": "emotion",
+    "tier": 0,
+    "tags": [
+      "power",
+      "boundaries"
+    ],
+    "intensity": "medium",
+    "insight": "Boundary defense and protest."
+  },
+  {
+    "id": "emo_sadness",
+    "name": "Sadness",
+    "type": "emotion",
+    "tier": 0,
+    "tags": [
+      "loss",
+      "meaning"
+    ],
+    "intensity": "medium",
+    "insight": "Loss processing and withdrawal."
+  },
+  {
+    "id": "emo_joy",
+    "name": "Joy",
+    "type": "emotion",
+    "tier": 0,
+    "tags": [
+      "reward",
+      "vitality"
+    ],
+    "intensity": "low",
+    "insight": "Reward, vitality, and openness."
+  },
+  {
+    "id": "emo_disgust",
+    "name": "Disgust",
+    "type": "emotion",
+    "tier": 0,
+    "tags": [
+      "rejection",
+      "identity"
+    ],
+    "intensity": "medium",
+    "insight": "Rejection, aversion, and protection from contamination."
+  },
+  {
+    "id": "emo_trust",
+    "name": "Trust",
+    "type": "emotion",
+    "tier": 0,
+    "tags": [
+      "safety",
+      "relationships"
+    ],
+    "intensity": "low",
+    "insight": "Safety, openness, and permission to lean."
+  },
+  {
+    "id": "emo_anticipation",
+    "name": "Anticipation",
+    "type": "emotion",
+    "tier": 0,
+    "tags": [
+      "future",
+      "time"
+    ],
+    "intensity": "low",
+    "insight": "Projection into the future."
+  },
+  {
+    "id": "emo_jealousy",
+    "name": "Jealousy",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "relationships",
+      "threat"
+    ],
+    "intensity": "medium",
+    "insight": "Fear of losing what we cherish."
+  },
+  {
+    "id": "emo_grief",
+    "name": "Grief",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "loss",
+      "relationships"
+    ],
+    "intensity": "high",
+    "insight": "Love that has nowhere to go."
+  },
+  {
+    "id": "emo_gratitude",
+    "name": "Gratitude",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "meaning",
+      "connection"
+    ],
+    "intensity": "low",
+    "insight": "Recognizing goodness beyond the self."
+  },
+  {
+    "id": "emo_intimacy",
+    "name": "Intimacy",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "relationships",
+      "safety"
+    ],
+    "intensity": "medium",
+    "insight": "Closeness without armor."
+  },
+  {
+    "id": "emo_heartbreak",
+    "name": "Heartbreak",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "relationships",
+      "loss"
+    ],
+    "intensity": "high",
+    "insight": "Pain when love meets resistance."
+  },
+  {
+    "id": "emo_revulsion",
+    "name": "Revulsion",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "rejection",
+      "protection"
+    ],
+    "intensity": "medium",
+    "insight": "When love turns away to protect itself."
+  },
+  {
+    "id": "emo_hope",
+    "name": "Hope",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "future",
+      "meaning"
+    ],
+    "intensity": "low",
+    "insight": "Love projected into the future."
+  },
+  {
+    "id": "emo_anxiety",
+    "name": "Anxiety",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "threat",
+      "future"
+    ],
+    "intensity": "high",
+    "insight": "Threat imagined ahead of time."
+  },
+  {
+    "id": "emo_despair",
+    "name": "Despair",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "threat",
+      "loss"
+    ],
+    "intensity": "high",
+    "insight": "Fear that nothing will change."
+  },
+  {
+    "id": "emo_shame",
+    "name": "Shame",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "identity",
+      "threat"
+    ],
+    "intensity": "high",
+    "insight": "Fear of being seen as unacceptable."
+  },
+  {
+    "id": "emo_vulnerability",
+    "name": "Vulnerability",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "relationships",
+      "risk"
+    ],
+    "intensity": "medium",
+    "insight": "Fear willingly left unguarded."
+  },
+  {
+    "id": "emo_defensiveness",
+    "name": "Defensiveness",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "protection",
+      "power"
+    ],
+    "intensity": "medium",
+    "insight": "Fear disguised as force."
+  },
+  {
+    "id": "emo_relief",
+    "name": "Relief",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "regulation",
+      "safety"
+    ],
+    "intensity": "low",
+    "insight": "Safety after threat passes."
+  },
+  {
+    "id": "emo_resentment",
+    "name": "Resentment",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "anger",
+      "loss"
+    ],
+    "intensity": "high",
+    "insight": "Pain that has learned to blame."
+  },
+  {
+    "id": "emo_contempt",
+    "name": "Contempt",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "anger",
+      "rejection"
+    ],
+    "intensity": "high",
+    "insight": "Anger that looks down."
+  },
+  {
+    "id": "emo_betrayal",
+    "name": "Betrayal",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "relationships",
+      "trust"
+    ],
+    "intensity": "high",
+    "insight": "Anger born from broken safety."
+  },
+  {
+    "id": "emo_dread",
+    "name": "Dread",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "threat",
+      "future"
+    ],
+    "intensity": "high",
+    "insight": "Expecting conflict before it arrives."
+  },
+  {
+    "id": "emo_triumph",
+    "name": "Triumph",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "power",
+      "reward"
+    ],
+    "intensity": "medium",
+    "insight": "Anger converted into victory."
+  },
+  {
+    "id": "emo_loneliness",
+    "name": "Loneliness",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "relationships",
+      "loss"
+    ],
+    "intensity": "high",
+    "insight": "Sadness without safe connection."
+  },
+  {
+    "id": "emo_longing",
+    "name": "Longing",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "future",
+      "loss"
+    ],
+    "intensity": "medium",
+    "insight": "Sadness reaching forward."
+  },
+  {
+    "id": "emo_nostalgia",
+    "name": "Nostalgia",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "memory",
+      "loss"
+    ],
+    "intensity": "medium",
+    "insight": "Joy remembered through loss."
+  },
+  {
+    "id": "emo_self_loathing",
+    "name": "Self-Loathing",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "identity",
+      "rejection"
+    ],
+    "intensity": "high",
+    "insight": "Sadness turned inward."
+  },
+  {
+    "id": "emo_contentment",
+    "name": "Contentment",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "regulation",
+      "safety"
+    ],
+    "intensity": "low",
+    "insight": "Joy that does not need to prove itself."
+  },
+  {
+    "id": "emo_excitement",
+    "name": "Excitement",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "future",
+      "reward"
+    ],
+    "intensity": "low",
+    "insight": "Joy gathering momentum."
+  },
+  {
+    "id": "emo_guilty_pleasure",
+    "name": "Guilty Pleasure",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "reward",
+      "judgment"
+    ],
+    "intensity": "medium",
+    "insight": "Joy mixed with judgment."
+  },
+  {
+    "id": "emo_optimism",
+    "name": "Optimism",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "future",
+      "safety"
+    ],
+    "intensity": "low",
+    "insight": "Expecting safety ahead."
+  },
+  {
+    "id": "emo_moral_conflict",
+    "name": "Moral Conflict",
+    "type": "emotion",
+    "tier": 1,
+    "tags": [
+      "values",
+      "safety"
+    ],
+    "intensity": "medium",
+    "insight": "When values and safety collide."
+  },
+  {
+    "id": "emo_humiliation",
+    "name": "Humiliation",
+    "type": "emotion",
+    "tier": 2,
+    "tags": [
+      "shame",
+      "memory"
+    ],
+    "intensity": "high",
+    "insight": "When shame is replayed."
+  },
+  {
+    "id": "emo_bitterness",
+    "name": "Bitterness",
+    "type": "emotion",
+    "tier": 2,
+    "tags": [
+      "anger",
+      "time"
+    ],
+    "intensity": "high",
+    "insight": "Resentment that fermented."
+  },
+  {
+    "id": "emo_chronic_anxiety",
+    "name": "Chronic Anxiety",
+    "type": "emotion",
+    "tier": 2,
+    "tags": [
+      "threat",
+      "time"
+    ],
+    "intensity": "high",
+    "insight": "Fear that never powers down."
+  },
+  {
+    "id": "emo_mourning",
+    "name": "Mourning",
+    "type": "emotion",
+    "tier": 2,
+    "tags": [
+      "loss",
+      "time"
+    ],
+    "intensity": "medium",
+    "insight": "Grief allowed to move."
+  },
+  {
+    "id": "emo_stabilization",
+    "name": "Stabilization",
+    "type": "emotion",
+    "tier": 2,
+    "tags": [
+      "regulation",
+      "safety"
+    ],
+    "intensity": "medium",
+    "insight": "Learning the danger has ended."
+  },
+  {
+    "id": "emo_discernment",
+    "name": "Discernment",
+    "type": "emotion",
+    "tier": 2,
+    "tags": [
+      "relationships",
+      "awareness"
+    ],
+    "intensity": "medium",
+    "insight": "Learning who is safe."
+  },
+  {
+    "id": "emo_acceptance",
+    "name": "Acceptance",
+    "type": "emotion",
+    "tier": 2,
+    "tags": [
+      "loss",
+      "awareness"
+    ],
+    "intensity": "medium",
+    "insight": "Letting loss be real."
+  },
+  {
+    "id": "emo_attachment",
+    "name": "Attachment",
+    "type": "emotion",
+    "tier": 2,
+    "tags": [
+      "relationships",
+      "risk"
+    ],
+    "intensity": "medium",
+    "insight": "Closeness with stakes."
+  },
+  {
+    "id": "emo_self_compassion",
+    "name": "Self-Compassion",
+    "type": "emotion",
+    "tier": 2,
+    "tags": [
+      "regulation",
+      "identity"
+    ],
+    "intensity": "medium",
+    "insight": "Accountability without cruelty."
+  },
+  {
+    "id": "emo_peace",
+    "name": "Peace",
+    "type": "emotion",
+    "tier": 2,
+    "tags": [
+      "regulation",
+      "time"
+    ],
+    "intensity": "low",
+    "insight": "Joy without urgency."
+  },
+  {
+    "id": "mod_memory",
+    "name": "Memory",
+    "type": "modifier",
+    "tier": 2,
+    "tags": [
+      "memory"
+    ],
+    "intensity": "low",
+    "insight": "The past echoing into the present.",
+    "unlock": {
+      "minDiscoveries": 15
+    }
+  },
+  {
+    "id": "mod_safety",
+    "name": "Safety",
+    "type": "modifier",
+    "tier": 2,
+    "tags": [
+      "regulation",
+      "safety"
+    ],
+    "intensity": "low",
+    "insight": "Protection, permission, and settling.",
+    "unlock": {
+      "minDiscoveries": 25
+    }
+  },
+  {
+    "id": "mod_time",
+    "name": "Time",
+    "type": "modifier",
+    "tier": 2,
+    "tags": [
+      "time"
+    ],
+    "intensity": "low",
+    "insight": "Duration, repetition, and change.",
+    "unlock": {
+      "minDiscoveries": 35
+    }
+  },
+  {
+    "id": "mod_awareness",
+    "name": "Awareness",
+    "type": "modifier",
+    "tier": 2,
+    "tags": [
+      "awareness"
+    ],
+    "intensity": "low",
+    "insight": "Noticing clearly without flinching.",
+    "futurePremium": true
+  },
+  {
+    "id": "mod_meaning",
+    "name": "Meaning",
+    "type": "modifier",
+    "tier": 2,
+    "tags": [
+      "meaning"
+    ],
+    "intensity": "low",
+    "insight": "The story we attach to what happens.",
+    "futurePremium": true
+  },
+  {
+    "id": "mod_power",
+    "name": "Power",
+    "type": "modifier",
+    "tier": 2,
+    "tags": [
+      "agency",
+      "power"
+    ],
+    "intensity": "low",
+    "insight": "Agency, leverage, and ability to act.",
+    "futurePremium": true
+  }
+]
