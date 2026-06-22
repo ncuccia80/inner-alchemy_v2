@@ -1,0 +1,299 @@
+[
+  {
+    "id": "rcp_jealousy",
+    "inputs": [
+      "emo_fear",
+      "emo_love"
+    ],
+    "output": "emo_jealousy"
+  },
+  {
+    "id": "rcp_grief",
+    "inputs": [
+      "emo_love",
+      "emo_sadness"
+    ],
+    "output": "emo_grief"
+  },
+  {
+    "id": "rcp_gratitude",
+    "inputs": [
+      "emo_love",
+      "emo_joy"
+    ],
+    "output": "emo_gratitude"
+  },
+  {
+    "id": "rcp_intimacy",
+    "inputs": [
+      "emo_love",
+      "emo_trust"
+    ],
+    "output": "emo_intimacy"
+  },
+  {
+    "id": "rcp_heartbreak",
+    "inputs": [
+      "emo_love",
+      "emo_anger"
+    ],
+    "output": "emo_heartbreak"
+  },
+  {
+    "id": "rcp_revulsion",
+    "inputs": [
+      "emo_love",
+      "emo_disgust"
+    ],
+    "output": "emo_revulsion"
+  },
+  {
+    "id": "rcp_hope",
+    "inputs": [
+      "emo_love",
+      "emo_anticipation"
+    ],
+    "output": "emo_hope"
+  },
+  {
+    "id": "rcp_anxiety",
+    "inputs": [
+      "emo_fear",
+      "emo_anticipation"
+    ],
+    "output": "emo_anxiety"
+  },
+  {
+    "id": "rcp_despair",
+    "inputs": [
+      "emo_fear",
+      "emo_sadness"
+    ],
+    "output": "emo_despair"
+  },
+  {
+    "id": "rcp_shame",
+    "inputs": [
+      "emo_fear",
+      "emo_disgust"
+    ],
+    "output": "emo_shame"
+  },
+  {
+    "id": "rcp_vulnerability",
+    "inputs": [
+      "emo_fear",
+      "emo_trust"
+    ],
+    "output": "emo_vulnerability"
+  },
+  {
+    "id": "rcp_defensiveness",
+    "inputs": [
+      "emo_fear",
+      "emo_anger"
+    ],
+    "output": "emo_defensiveness"
+  },
+  {
+    "id": "rcp_relief",
+    "inputs": [
+      "emo_fear",
+      "emo_joy"
+    ],
+    "output": "emo_relief"
+  },
+  {
+    "id": "rcp_resentment",
+    "inputs": [
+      "emo_anger",
+      "emo_sadness"
+    ],
+    "output": "emo_resentment"
+  },
+  {
+    "id": "rcp_contempt",
+    "inputs": [
+      "emo_anger",
+      "emo_disgust"
+    ],
+    "output": "emo_contempt"
+  },
+  {
+    "id": "rcp_betrayal",
+    "inputs": [
+      "emo_anger",
+      "emo_trust"
+    ],
+    "output": "emo_betrayal"
+  },
+  {
+    "id": "rcp_dread",
+    "inputs": [
+      "emo_anger",
+      "emo_anticipation"
+    ],
+    "output": "emo_dread"
+  },
+  {
+    "id": "rcp_triumph",
+    "inputs": [
+      "emo_anger",
+      "emo_joy"
+    ],
+    "output": "emo_triumph"
+  },
+  {
+    "id": "rcp_loneliness",
+    "inputs": [
+      "emo_sadness",
+      "emo_trust"
+    ],
+    "output": "emo_loneliness"
+  },
+  {
+    "id": "rcp_longing",
+    "inputs": [
+      "emo_sadness",
+      "emo_anticipation"
+    ],
+    "output": "emo_longing"
+  },
+  {
+    "id": "rcp_nostalgia",
+    "inputs": [
+      "emo_sadness",
+      "emo_joy"
+    ],
+    "output": "emo_nostalgia"
+  },
+  {
+    "id": "rcp_self_loathing",
+    "inputs": [
+      "emo_sadness",
+      "emo_disgust"
+    ],
+    "output": "emo_self_loathing"
+  },
+  {
+    "id": "rcp_contentment",
+    "inputs": [
+      "emo_joy",
+      "emo_trust"
+    ],
+    "output": "emo_contentment"
+  },
+  {
+    "id": "rcp_excitement",
+    "inputs": [
+      "emo_joy",
+      "emo_anticipation"
+    ],
+    "output": "emo_excitement"
+  },
+  {
+    "id": "rcp_guilty_pleasure",
+    "inputs": [
+      "emo_joy",
+      "emo_disgust"
+    ],
+    "output": "emo_guilty_pleasure"
+  },
+  {
+    "id": "rcp_optimism",
+    "inputs": [
+      "emo_trust",
+      "emo_anticipation"
+    ],
+    "output": "emo_optimism"
+  },
+  {
+    "id": "rcp_moral_conflict",
+    "inputs": [
+      "emo_trust",
+      "emo_disgust"
+    ],
+    "output": "emo_moral_conflict"
+  },
+  {
+    "id": "rcp_humiliation",
+    "inputs": [
+      "emo_shame",
+      "mod_memory"
+    ],
+    "output": "emo_humiliation"
+  },
+  {
+    "id": "rcp_bitterness",
+    "inputs": [
+      "emo_resentment",
+      "mod_time"
+    ],
+    "output": "emo_bitterness"
+  },
+  {
+    "id": "rcp_chronic_anxiety",
+    "inputs": [
+      "emo_anxiety",
+      "mod_time"
+    ],
+    "output": "emo_chronic_anxiety"
+  },
+  {
+    "id": "rcp_mourning",
+    "inputs": [
+      "emo_grief",
+      "mod_time"
+    ],
+    "output": "emo_mourning"
+  },
+  {
+    "id": "rcp_stabilization",
+    "inputs": [
+      "emo_anxiety",
+      "mod_safety"
+    ],
+    "output": "emo_stabilization"
+  },
+  {
+    "id": "rcp_discernment",
+    "inputs": [
+      "emo_betrayal",
+      "mod_awareness"
+    ],
+    "output": "emo_discernment"
+  },
+  {
+    "id": "rcp_acceptance",
+    "inputs": [
+      "emo_sadness",
+      "mod_awareness"
+    ],
+    "output": "emo_acceptance"
+  },
+  {
+    "id": "rcp_attachment",
+    "inputs": [
+      "emo_intimacy",
+      "emo_fear"
+    ],
+    "output": "emo_attachment"
+  },
+  {
+    "id": "rcp_self_compassion",
+    "inputs": [
+      "emo_shame",
+      "mod_safety"
+    ],
+    "output": "emo_self_compassion"
+  },
+  {
+    "id": "rcp_peace",
+    "inputs": [
+      "emo_joy",
+      "mod_safety",
+      "mod_time"
+    ],
+    "output": "emo_peace"
+  }
+]
